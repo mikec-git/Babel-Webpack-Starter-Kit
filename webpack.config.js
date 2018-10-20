@@ -1,8 +1,8 @@
 const path = require("path");
 
 module.exports = {
-    mode: 'development',
-    entry: "./src/js/app.js",
+    mode: 'production',
+    entry: ["@babel/polyfill", "./src/js/app.js"],
     output: {
         path: path.resolve(__dirname, "public"),
         filename: "bundle.app.js"
