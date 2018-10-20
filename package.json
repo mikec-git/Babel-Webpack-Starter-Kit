@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "watch": "webpack --watch",
     "build": "webpack --config webpack.config.js"
   },
   "author": "Mike Choi",
