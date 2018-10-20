@@ -4,12 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "babel src -d public"
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Mike Choi",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
   }
 }
